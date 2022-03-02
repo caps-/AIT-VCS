@@ -6,7 +6,7 @@
 /*   By: pwhittin <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/01/26 14:57:02 by pwhittin          #+#    #+#             */
-/*   Updated: 2022/02/10 00:40:42 by pwhittin         ###   ########.fr       */
+/*   Updated: 2022/03/02 16:37:15 by adunne           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -22,7 +22,7 @@
 
 #include "libft.h"
 
-void	ft_bzero(void *s, size_t n)
+void	ft_bzero(void *p, size_t v)
 {
-	ft_memset(s, '\0', n);
+	ft_memset(p, '\0', v);
 }
