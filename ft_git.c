@@ -1,3 +1,5 @@
+/* Add something to me or whatever I don't know */
+
 #include <stdio.h>
 
 int	main()
